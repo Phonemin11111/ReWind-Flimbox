@@ -1,0 +1,300 @@
+@import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Megrim&display=swap");
+
+@font-face {
+  font-family: myFirstFont;
+  src: url("./fonts/balls-on-the-rampage.regular.ttf");
+}
+
+.hrlamp {
+  box-shadow: 0 0 100px #ffffff, 0px 0px 3px #ff4800, 0 0 50px #ff0000;
+  animation: lower 4s linear infinite;
+}
+
+@keyframes lower {
+  0%,
+  12%,
+  18.999%,
+  23%,
+  31.999%,
+  37%,
+  44.999%,
+  46%,
+  49.999%,
+  51%,
+  58.999%,
+  61%,
+  68.999%,
+  71%,
+  85.999%,
+  96%,
+  100% {
+    opacity: 0.99;
+    text-shadow: 0 0 100px #ffffff, 0px 0px 3px #672105, 0 0 50px #ff0000;
+  }
+  19%,
+  22.99%,
+  32%,
+  36.999%,
+  45%,
+  45.999%,
+  50%,
+  50.99%,
+  59%,
+  60.999%,
+  69%,
+  70.999%,
+  86%,
+  95.999% {
+    opacity: 0.4;
+    text-shadow: none;
+  }
+}
+
+.mantine-1yuwycb[data-striped] {
+  -webkit-background-size: 1.25rem 1.25rem;
+  background-size: 1.25rem 1.25rem;
+  background-image: url("../images/Mantine-Pokemon-1.png");
+  /* background-image: linear-gradient(45deg, gray 25%, transparent 25%, transparent 50%, #ff0000 50%, #36baf7 75%, transparent 75%, transparent); */
+}
+
+.titlefont {
+  font-family: "Monoton", cursive;
+  text-shadow: 0 0 80px #ff0000, 0 0 30px FireBrick, 0 0 6px DarkRed;
+  animation: RE 16s linear infinite;
+}
+
+@keyframes RE {
+  2%,
+  18.49%,
+  50%,
+  56.99%,
+  64%,
+  70.99%,
+  78%,
+  84.99%,
+  92%,
+  99.99% {
+    color: #ff0000;
+    border-color: #ff0000;
+    text-shadow: 0 0 80px #ff0000, 0 0 30px FireBrick, 0 0 6px DarkRed;
+  }
+  0%,
+  1.99%,
+  18.50%,
+  49.99%,
+  57%,
+  63.99%,
+  71%,
+  77.99%,
+  85%,
+  91.99%,
+  100% {
+    color: darkred;
+    border-color: Darred;
+    text-shadow: none;
+  }
+}
+
+.windfont {
+  font-family: "Megrim", cursive;
+  -webkit-text-stroke: 2px #36baf7;
+  text-shadow: 0 0 80px #36baf7, 0 0 30px #2481ac, 0 0 6px #006a9e;
+  animation: WIND 16s linear infinite;
+}
+
+@keyframes WIND {
+  18.50%,
+  35.99%,
+  50%,
+  56.99%,
+  64%,
+  70.99%,
+  78%,
+  84.99%,
+  92%,
+  99.99% {
+    -webkit-text-stroke: 2px #36baf7;
+    text-shadow: 0 0 80px #36baf7, 0 0 30px #2481ac, 0 0 6px #006a9e;
+  }
+  0%,
+  18.49%,
+  36%,
+  49.99%,
+  57%,
+  63.99%,
+  71%,
+  77.99%,
+  85%,
+  91.99%,
+  100% {
+    -webkit-text-stroke: 2px #006a9e;
+    text-shadow: none;
+  }
+}
+
+.spanfont {
+  font-family: "Tilt Prism", cursive;
+  text-shadow: 0 0 80px #ffffff, 0 0 30px #008000, 0 0 6px #0000ff;
+  animation: FLIMBOX 16s linear infinite;
+}
+
+@keyframes FLIMBOX {
+  36%,
+  47.99%,
+  50%,
+  56.99%,
+  64%,
+  70.99%,
+  78%,
+  84.99%,
+  92%,
+  99.99% {
+    color: white;
+    text-shadow: 0 0 80px #ffffff, 0 0 30px #b7b7b7, 0 0 6px gray;
+  }
+  0%,
+  35.99%,
+  48%,
+  49.99%,
+  57%,
+  63.99%,
+  71%,
+  77.99%,
+  85%,
+  91.99%,
+  100% {
+    color: rgb(158, 158, 158);
+    text-shadow: none;
+  }
+}
+
+.glassmorphic {
+  box-shadow: rgba(255, 255, 255, 0.5) -10px -10px 45px inset,
+    rgba(0, 0, 0, 0.1) 10px 10px 20px, rgba(0, 0, 0, 0.06) 5px 5px 10px;
+}
+
+.slogan {
+  webkit-transform: rotateX(35deg) rotateY(-15deg) rotateZ(-63deg);
+  transform: rotateX(35deg) rotateY(-15deg) rotateZ(-63deg);
+  font-family: myFirstFont;
+  filter: drop-shadow(-1.1rem 1.2rem rgba(255, 255, 255, 0.474));
+  text-shadow: 0 0 80px red, 0 0 30px FireBrick, 0 0 6px DarkRed;
+  animation: lower 4s linear infinite;
+}
+
+@keyframes lower {
+  0%,
+  12%,
+  18.999%,
+  23%,
+  31.999%,
+  37%,
+  44.999%,
+  46%,
+  49.999%,
+  51%,
+  58.999%,
+  61%,
+  68.999%,
+  71%,
+  85.999%,
+  96%,
+  100% {
+    opacity: 0.99;
+    text-shadow: 0 0 100px #ffffff, 0px 0px 3px #672105, 0 0 50px #ff0000;
+  }
+  19%,
+  22.99%,
+  32%,
+  36.999%,
+  45%,
+  45.999%,
+  50%,
+  50.99%,
+  59%,
+  60.999%,
+  69%,
+  70.999%,
+  86%,
+  95.999% {
+    opacity: 0.4;
+    text-shadow: none;
+  }
+}
+
+.div1 {
+  perspective: 400px;
+}
+
+.list {
+  width: 80%;
+  height: 400px;
+  overflow-x: hidden;
+  webkit-transform: rotateX(35deg) rotateY(-15deg) rotateZ(27deg);
+  transform: rotateX(35deg) rotateY(-15deg) rotateZ(27deg);
+  perspective: 900px;
+  margin: 0 0 0 0px;
+  padding: 0px 0px 0px 0px;
+  scrollbar-width: none;
+  filter: drop-shadow(1.2rem 1.2rem rgba(255, 255, 255, 0.474));
+}
+
+.list::-webkit-scrollbar {
+  display: block;
+}
+
+.logoani {
+  animation: rollin linear 8s infinite alternate;
+}
+
+@keyframes rollin {
+  0% {
+    left: 0px;
+    top: 0px;
+    color: #ff0000;
+    border-color: #ff0000;
+    box-shadow: 0 0 80px #ff0000, 0 0 30px FireBrick, 0 0 6px DarkRed;
+  }
+  36.99% {
+    color: #ff0000;
+    border-color: #ff0000;
+    box-shadow: 0 0 80px #ff0000, 0 0 30px FireBrick, 0 0 6px DarkRed;
+  }
+  37%,
+  71.99% {
+    color: #36baf7;
+    border-color: #36baf7;
+    box-shadow: 0 0 80px #36baf7, 0 0 30px #2481ac, 0 0 6px #005c89;
+  }
+
+  72% {
+    color: white;
+    border-color: white;
+    box-shadow: 0 0 80px #ffffff, 0 0 30px #b7b7b7, 0 0 6px gray;
+  }
+
+  100% {
+    left: 418px;
+    top: 0px;
+    transform: rotate(360deg);
+    color: white;
+    border-color: white;
+    box-shadow: 0 0 80px #ffffff, 0 0 30px #b7b7b7, 0 0 6px gray;
+  }
+}
+
+.moAni {
+  animation: poster 150s linear infinite;
+}
+
+@keyframes poster {
+  0% {
+    transform: translate(0px, 0px);
+  }
+
+  100% {
+    transform: translate(0px, -1077px);
+  }
+}

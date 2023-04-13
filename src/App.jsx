@@ -1,15 +1,15 @@
 import Navbar from "./component/Navbar";
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import Movies from "./component/Movies";
 import "./style/app.css";
+import Signboard from "./component/Signboard";
 
 const App = () => {
   return (
     <div className="mainbg">
       <Navbar />
       <Routes>
-        <Route path="/" element={<Movies />} />
+        <Route path="/" element={<Signboard />} />
       </Routes>
     </div>
   );

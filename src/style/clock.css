@@ -1,0 +1,18 @@
+@font-face {
+  font-family: digitalClock;
+  src: url("./fonts/digital-7.ttf");
+}
+
+@font-face {
+  font-family: openfont;
+  src: url("./fonts/balls-on-the-rampage.regular.ttf");
+}
+
+.hrfont {
+  font-family: digitalClock;
+}
+
+.openfont {
+  font-family: openfont;
+  text-shadow: 0 0 100px #36baf7, 0px 0px 3px #3a0866, 0 0 60px #0084d1;
+}

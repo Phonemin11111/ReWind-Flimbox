@@ -4,8 +4,8 @@ import "../style/darktoggle.css";
 const Navbar = () => {
   const [darkToggle, setDarkToggle] = useState(false);
   return (
-    <div class={`${darkToggle && "dark"}`}>
-      <nav className=" flex flex-col md:flex-row bg-gradient-to-b from-transparent to-black dark:bg-white text-white dark:text-black shadow-xl shadow-black leading-none ">
+    <div className={`${darkToggle && "dark"}`}>
+      <nav className=" flex flex-col md:flex-row bg-gradient-to-b from-transparent to-black dark:bg-gradient-to-b dark:from-transparent dark:to-white text-white dark:text-black shadow-xl shadow-black dark:shadow-white leading-none ">
         <div className=" container mx-auto flex">
           <div className=" flex items-center mx-5 py-5 md:py-0">
             <svg
@@ -58,12 +58,12 @@ const Navbar = () => {
             </ul>
           </div>
           <div className="flex items-center">
-            <label class="toggleDarkBtn">
+            <label className="toggleDarkBtn">
               <input
                 type="checkbox"
                 onClick={() => setDarkToggle(!darkToggle)}
               />
-              <span class="slideBtnTg round"></span>
+              <span className="slideBtnTg round"></span>
             </label>
           </div>
         </div>

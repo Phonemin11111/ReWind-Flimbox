@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url("https://fonts.googleapis.com/css?family=Roboto");
 
-body{
-	font-family: 'Roboto', sans-serif;
+body {
+  font-family: "Roboto", sans-serif;
 }
 
-.mainbg{
-	background-image: url('./images/Nightone.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
+.mainbg {
+  background-image: url("./images/blackbrickthree.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
 
 /* ---------------------------------------------------------------------- */
-

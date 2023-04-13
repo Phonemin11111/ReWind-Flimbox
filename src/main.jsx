@@ -8,9 +8,13 @@ import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <BrowserRouter>
-    <MantineProvider withGlobalStyles withNormalizeCSS theme={{
-        colorScheme: 'dark'
-      }}>
+    <MantineProvider
+      withGlobalStyles
+      withNormalizeCSS
+      theme={{
+        colorScheme: "dark",
+      }}
+    >
       <StateContextProvider>
         <App />
       </StateContextProvider>
